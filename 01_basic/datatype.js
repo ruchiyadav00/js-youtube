@@ -1,38 +1,35 @@
-let score = "abs";
-// console.log( typeof score);
-let valueInNumber = Number(score);
-// console.log( typeof valueInNumber);
-// console.log(valueInNumber);
+//  Primitive
 
-let isLoggedIn = "";
-let BooleanIsLoggedIn = Boolean(isLoggedIn);
-// console.log(BooleanIsLoggedIn);
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-// 1 => true; 0 => false;
-// "" => false; "hitesh" => true;
+const score = 100
+const scoreValue = 100.3
 
-// **************** operations **********************************
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;
 
-let num = 33;
-let negNum = -num;
-console.log(negNum);
+const id = Symbol('123')
+const anotherId = Symbol('123')
 
-// addition (2+2)
-// subtract (3-2)
-// multiply (3*2)
-// divide (6/2)
-// power (2**5)
-// reminder(2%3)
+console.log(id === anotherId);
 
-let str1 = "hello";
-let str2 = " raj";
-let str3 = str1 + str2;
-// console.log(str3);
-
-console.log( null > 0);
-console.log(null == 0);
-console.log( null >= 0);
+// const bigNumber = 3456543576654356754n
 
 
 
+// Reference (Non primitive)
 
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof anotherId);
